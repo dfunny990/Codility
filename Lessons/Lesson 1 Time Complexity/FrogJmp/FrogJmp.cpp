@@ -1,4 +1,4 @@
-//Codility Lesson 2, FrogJmp
+//Codility Lesson 1, Program 2, FrogJmp
 
 int solution(int X, int Y, int D) {
     int solution = (Y-X)/D;

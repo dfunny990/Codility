@@ -1,3 +1,5 @@
+//Codility Lesson 1, Program 1 TapeEq
+
 #include<iostream>
 #include<limits.h>
 #include<cmath>
@@ -11,11 +13,7 @@ int solution(vector<int> &A) {
     	rsum += A[i];
     	cout<<A[i]<<endl;
     }
-    
-    cout<<lsum<<endl;
-    cout<<rsum<<endl;
     min= abs(lsum-rsum);
-    cout<<"Min: "<<min<<endl;
     if(A.size()==2){
         return min;
     }

@@ -1,4 +1,4 @@
-//Codility Lesson 3, PermMissingElem
+//Codility Lesson 1, Program 3, PermMissingElem
 
 int solution(vector<int> &A) {
     int N = A.size();
